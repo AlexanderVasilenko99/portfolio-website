@@ -1,3 +1,28 @@
+$primary_color: #9B4819;
+$secondary_color: #F4F1E8;
+
 .FirstSection {
-	
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary_color;
+
+    h1 {
+        margin: 10px;
+        font-size: 90px;
+        color: $primary_color;
+
+        >span {
+            color: black;
+            font-style: italic;
+        }
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 36px;
+        margin: 0;
+    }
 }
