@@ -4,9 +4,11 @@
 
 $primary_color: #9B4819;
 $secondary_color: #F4F1E8;
+$tertiary_color: #BD8F53;
 
 html,
-body {
+body,
+body * {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
@@ -29,4 +31,12 @@ body {
 
 @mixin secondary_color_background {
   background-color: $secondary_color;
+}
+
+@mixin tertiary_color_text {
+  color: $tertiary_color;
+}
+
+@mixin tertiary_color_background {
+  background-color: $tertiary_color;
 }

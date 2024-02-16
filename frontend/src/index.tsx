@@ -7,6 +7,8 @@ import ContactMeSection from './Components/5-ContactMeSection/ContactMeSection';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+document.title = "Alexander Vasilenko";
+
 root.render(
   <React.StrictMode>
     <FirstSection />
