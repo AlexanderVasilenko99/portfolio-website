@@ -1,7 +1,32 @@
+:root {
+  font-size: 45px;
+}
+
+$primary_color: #9B4819;
+$secondary_color: #F4F1E8;
+
 html,
 body {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+
+
+@mixin primary_color_text {
+  color: $primary_color;
+}
+
+@mixin primary_color_background {
+  background-color: $primary_color;
+}
+
+@mixin secondary_color_text {
+  color: $secondary_color;
+}
+
+@mixin secondary_color_background {
+  background-color: $secondary_color;
 }

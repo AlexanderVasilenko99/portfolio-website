@@ -1,18 +1,18 @@
-$primary_color: #9B4819;
-$secondary_color: #F4F1E8;
+@use "../../index.scss" as i;
+
 
 .FirstSection {
+    @include i.secondary_color_background;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: $secondary_color;
 
     h1 {
+        @include i.primary_color_text;
         margin: 10px;
-        font-size: 90px;
-        color: $primary_color;
+        font-size: 2rem;
 
         >span {
             color: black;
@@ -22,7 +22,7 @@ $secondary_color: #F4F1E8;
 
     h2 {
         font-weight: 500;
-        font-size: 36px;
+        font-size: 0.8rem;
         margin: 0;
     }
 }
