@@ -16,7 +16,7 @@ function ContactMeSection(): JSX.Element {
         <div className="ContactMeSection">
             <div className="left-col">
                 <p className="reach-out">
-                    Reach out today to make your dream website come true.
+                    Reach out today to make your dream website a reality.
                 </p>
                 <hr />
                 <form onSubmit={handleSubmit((e: any) => {
