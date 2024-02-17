@@ -5,6 +5,7 @@ import FirstSection from './Components/1-FirstSection/FirstSection';
 import ContactMeSection from './Components/5-ContactMeSection/ContactMeSection';
 import { BrowserRouter } from 'react-router-dom';
 import ParallaxSection from './Components/2-ParallaxSection/ParallaxSection';
+import AboutSection from './Components/3-AboutSection/AboutSection';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +17,7 @@ root.render(
     <BrowserRouter>
       <FirstSection />
       <ParallaxSection />
+      <AboutSection />
       <ContactMeSection />
     </BrowserRouter >
   </React.StrictMode>
