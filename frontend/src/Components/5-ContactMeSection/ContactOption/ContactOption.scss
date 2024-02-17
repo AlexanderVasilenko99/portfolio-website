@@ -1,0 +1,28 @@
+.ContactOption {
+    font-size: .6rem;
+    display: flex;
+    width: fit-content;
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 55px;
+    }
+
+    .header-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+
+}

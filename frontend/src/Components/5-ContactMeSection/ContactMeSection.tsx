@@ -1,4 +1,5 @@
 import "./ContactMeSection.scss";
+import ContactOption from "./ContactOption/ContactOption";
 
 function ContactMeSection(): JSX.Element {
     return (
@@ -10,7 +11,12 @@ function ContactMeSection(): JSX.Element {
                 <hr />
             </div>
             <div className="right-col">
-                right
+                <ContactOption
+                    key="email"
+                    header="Email"
+                    content="alexandervjr1@gmail.com"
+                    image_name="email_icon.png"
+                />
             </div>
         </div>
     );
