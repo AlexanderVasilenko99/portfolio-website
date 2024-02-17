@@ -1,9 +1,10 @@
+import { NavLink } from "react-router-dom";
 import ContactOptionModel from "../../../Models/ContactOptionModel";
 import "./ContactOption.scss";
 
 function ContactOption(props: ContactOptionModel): JSX.Element {
     return (
-        <div className="ContactOption">
+        <NavLink to={props.redirect} className="ContactOption" target="_blank">
             <div className="image-container">
                 <img src={require(`../../../Assets/Images/${props.image_name}`)} alt="image_broken" />
             </div>
@@ -15,7 +16,7 @@ function ContactOption(props: ContactOptionModel): JSX.Element {
                     {props.content}
                 </div>
             </div>
-        </div>
+        </NavLink>
     );
 }
 

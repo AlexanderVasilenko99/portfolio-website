@@ -21,4 +21,15 @@
             margin: 30px 20px;
         }
     }
+
+    .right-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        .ContactOption {
+            margin: 10px 10px;
+        }
+    }
 }
