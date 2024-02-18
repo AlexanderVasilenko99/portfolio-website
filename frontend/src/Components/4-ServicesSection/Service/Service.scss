@@ -3,7 +3,6 @@
 .Service {
     height: 500px;
     width: clamp(200px, 25vw, 400px);
-    // border: 2px solid i.$primary_color;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,7 +15,7 @@
     }
 
     h3 {
-        font-size: .8rem;
+        font-size: .7rem;
         margin: 5px 0px;
     }
 

@@ -1,20 +1,32 @@
+import ServiceOptionModel from "../../Models/ServiceOptionModel";
 import Service from "./Service/Service";
 import "./ServicesSection.scss";
 
 function ServicesSection(): JSX.Element {
+    const services: ServiceOptionModel[] = [
+        new ServiceOptionModel(
+            "Websites",
+            "I develop new websites from scratch custom made specifically for your business needs.",
+            "me.png"),
+        new ServiceOptionModel(
+            "Landing Pages",
+            "I make a simple web pages usually designed for selling a product or pulling in leeds.",
+            "me.png"),
+        new ServiceOptionModel(
+            "Management",
+            "Already have a website and looking for someone to manage it? look no further!",
+            "me.png")
+    ]
     return (
         <div className="ServicesSection">
             <h1>My Services</h1>
-            <div className="col">
-                <Service />
-            </div>
-            <div className="col">
-                <Service />
-            </div>
-            <div className="col">
-                <Service />
-            </div>
-        </div>
+            {services.map(s => <div className="col" key={s.header}><Service
+                header={s.header}
+                content={s.content}
+                image_name={s.image_name}
+            />
+            </div>)}
+        </div >
     );
 }
 
