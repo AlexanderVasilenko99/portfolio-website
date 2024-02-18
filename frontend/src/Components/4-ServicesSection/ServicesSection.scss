@@ -1,0 +1,35 @@
+@use "../../index.scss" as i;
+
+
+.ServicesSection {
+    @include i.secondary_color_background;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 100px;
+
+    h1 {
+        @include i.primary_color_text;
+        font-size: 1.35rem;
+        grid-column: span 2;
+        margin: 0;
+        height: fit-content;
+    }
+
+    .left-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        // p {
+        //     font-size: .6rem;
+        //     text-align: left;
+        // }
+    }
+
+    .right-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
