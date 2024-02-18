@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ParallaxSection from './Components/2-ParallaxSection/ParallaxSection';
 import AboutSection from './Components/3-AboutSection/AboutSection';
 import ServicesSection from './Components/4-ServicesSection/ServicesSection';
+import GallerySection from './Components/5-GallerySection/ServicesSection';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,6 +21,7 @@ root.render(
       <ParallaxSection />
       <AboutSection />
       <ServicesSection />
+      <GallerySection />
       <ContactMeSection />
     </BrowserRouter >
   </React.StrictMode>
