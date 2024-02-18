@@ -1,0 +1,31 @@
+@use "../../../index.scss" as i;
+
+.Service {
+    height: 500px;
+    width: clamp(200px, 25vw, 400px);
+    // border: 2px solid i.$primary_color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+        width: clamp(200px, 25vw, 300px);
+        height: 300px;
+        border-radius: 50% 50% 0 0;
+    }
+
+    h3 {
+        font-size: .8rem;
+        margin: 5px 0px;
+    }
+
+    hr {
+        width: clamp(200px, 25vw, 300px);
+        border: 1px solid i.$tertiary_color;
+    }
+
+    p {
+        font-size: .6rem;
+    }
+}
