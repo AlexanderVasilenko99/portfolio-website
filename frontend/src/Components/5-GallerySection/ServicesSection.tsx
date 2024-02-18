@@ -4,8 +4,8 @@ import Project from "./Project/Project";
 
 function GallerySection(): JSX.Element {
     const projects: ProjectModel[] = [
-        new ProjectModel("proj 1", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
-        new ProjectModel("proj 2", WORK_TYPES.WEBSITE, '#', 'me.png'),
+        new ProjectModel("Vasilenko Vacations", WORK_TYPES.WEBSITE, 'http://45.55.70.243:4000/home', 'vasilenko-vacations.png'),
+        new ProjectModel("Vasilenko Car Rental", WORK_TYPES.WEBSITE, 'alexandervasilenko99.github.io/car-rental/', 'car-rental.png'),
         new ProjectModel("proj 3", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
         new ProjectModel("proj 4", WORK_TYPES.WEBSITE, '#', 'me.png'),
         new ProjectModel("proj 5", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
