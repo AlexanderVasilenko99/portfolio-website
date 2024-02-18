@@ -4,15 +4,15 @@ import Project from "./Project/Project";
 
 function GallerySection(): JSX.Element {
     const projects: ProjectModel[] = [
-        new ProjectModel("proj 1", WORK_TYPES.LANDING_PAGE, '#', 'name'),
-        new ProjectModel("proj 2", WORK_TYPES.WEBSITE, '#', 'name'),
-        new ProjectModel("proj 3", WORK_TYPES.LANDING_PAGE, '#', 'name'),
-        new ProjectModel("proj 4", WORK_TYPES.WEBSITE, '#', 'name'),
-        new ProjectModel("proj 5", WORK_TYPES.LANDING_PAGE, '#', 'name'),
-        new ProjectModel("proj 6", WORK_TYPES.LANDING_PAGE, '#', 'name'),
-        new ProjectModel("proj 7", WORK_TYPES.LANDING_PAGE, '#', 'name'),
-        new ProjectModel("proj 8", WORK_TYPES.WEBSITE, '#', 'name'),
-        new ProjectModel("proj 9", WORK_TYPES.LANDING_PAGE, '#', 'name'),
+        new ProjectModel("proj 1", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
+        new ProjectModel("proj 2", WORK_TYPES.WEBSITE, '#', 'me.png'),
+        new ProjectModel("proj 3", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
+        new ProjectModel("proj 4", WORK_TYPES.WEBSITE, '#', 'me.png'),
+        new ProjectModel("proj 5", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
+        new ProjectModel("proj 6", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
+        new ProjectModel("proj 7", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
+        new ProjectModel("proj 8", WORK_TYPES.WEBSITE, '#', 'me.png'),
+        new ProjectModel("proj 9", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
     ]
     return (
         <div className="GallerySection">
