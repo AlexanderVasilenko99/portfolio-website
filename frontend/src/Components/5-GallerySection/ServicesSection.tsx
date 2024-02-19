@@ -16,7 +16,10 @@ function GallerySection(): JSX.Element {
     ]
     return (
         <div className="GallerySection">
-            <h1>Some of my most recent projects</h1>
+            <div className="gallery-headers-container">
+                <h1>Gallery</h1>
+                <h3>Some of my recent projects</h3>
+            </div>
             {projects.map(p => <div key={p.project_name}><Project
                 redirect={p.redirect}
                 workType={p.workType}
