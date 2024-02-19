@@ -10,6 +10,12 @@
     grid-template-rows: 170px 1fr;
     padding: 0px 100px;
 
+    .col {
+        display: flex;
+        align-items: center;
+        padding-bottom: 250px
+    }
+
     h1 {
         @include i.secondary_color_text;
         font-size: 1.35rem;

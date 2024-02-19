@@ -1,3 +1,24 @@
+@use '../../../index.scss' as i;
+
 .Recommendation {
-	
+    @include i.secondary_color_text;
+
+    .header {
+        font-style: italic;
+    }
+
+    .content {
+        font-size: .6rem;
+    }
+
+    .author {
+        font-size: .6rem;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    hr {
+        border: 1px solid i.$tertiary_color;
+        margin: 20px 0px;
+    }
 }
