@@ -3,6 +3,7 @@
 }
 
 $primary_color: #9B4819;
+$primary_color2: #314028;
 $secondary_color: #F4F1E8;
 $tertiary_color: #BD8F53;
 
@@ -23,6 +24,13 @@ body * {
 
 @mixin primary_color_background {
   background-color: $primary_color;
+}
+@mixin primary_color2_text {
+  color: $primary_color2;
+}
+
+@mixin primary_color2_background {
+  background-color: $primary_color2;
 }
 
 @mixin secondary_color_text {
