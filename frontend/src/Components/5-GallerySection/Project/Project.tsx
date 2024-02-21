@@ -6,7 +6,9 @@ function Project(props: ProjectModel): JSX.Element {
     return (
         <NavLink to={props.redirect} className="Project" target="_blank">
             <img src={require(`../../../Assets/Images/${props.image_name}`)} />
-            <p>{props.project_name} - {props.workType}</p>
+            <p>
+                <span>`{props.project_name}`</span>{/* - {props.workType} */}
+            </p>
         </NavLink>
     );
 }

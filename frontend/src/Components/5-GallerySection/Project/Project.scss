@@ -15,5 +15,10 @@
 
     p {
         font-size: .6rem;
+        span{
+            font-style: italic;
+            @include i.primary_color_text;
+            font-weight: 600;
+        }
     }
 }
