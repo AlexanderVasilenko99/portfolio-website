@@ -10,18 +10,6 @@
     align-items: center;
     transition: 300ms;
 
-    &:hover {
-        .service-icon-container {
-            animation: appear 300ms linear forwards;
-        }
-    }
-
-    &:not(:hover) {
-        .service-icon-container {
-            animation: disappear 300ms linear forwards;
-        }
-    }
-
     .service-image {
         width: clamp(200px, 25vw, 300px);
         height: 300px;
@@ -59,25 +47,38 @@
         p {
             font-size: .5rem;
         }
+
+        &:hover {
+            cursor: pointer;
+            animation: appear 300ms linear forwards;
+        }
+
+        &:not(:hover) {
+            animation: disappear 300ms linear forwards;
+        }
     }
 }
 
 @keyframes appear {
     0% {
         opacity: 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
     100% {
         opacity: 1;
+        box-shadow: 0 0 15px gray;
     }
 }
 
 @keyframes disappear {
     0% {
         opacity: 1;
+        box-shadow: 0 0 15px gray;
     }
 
     100% {
         opacity: 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
