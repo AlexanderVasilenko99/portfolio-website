@@ -2,6 +2,9 @@
 
 .Recommendation {
     @include i.secondary_color_text;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
 
     .header {
         font-style: italic;
