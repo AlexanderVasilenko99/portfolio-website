@@ -1,6 +1,7 @@
 export enum WORK_TYPES {
     WEBSITE = 'Website',
     LANDING_PAGE = 'Landing page',
+    MAINTENANCE = 'Maintenance',
 }
 
 export class ProjectModel {

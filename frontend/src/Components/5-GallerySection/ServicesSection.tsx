@@ -9,9 +9,9 @@ function GallerySection(): JSX.Element {
         new ProjectModel("Insta Boost", WORK_TYPES.LANDING_PAGE, 'https://lp.smoove.io/o6mp', 'insta-boost4.png'),
         new ProjectModel("Summer Makeover", WORK_TYPES.LANDING_PAGE, 'https://lp.smoove.io/omm7', 'summer-makeover1.png'),
         new ProjectModel("Cinderella", WORK_TYPES.LANDING_PAGE, 'https://lp.smoove.io/odby', 'cinderella3.png'),
-        new ProjectModel("Checklist", WORK_TYPES.LANDING_PAGE, 'https://lp.smoove.io/xqmn', 'checklist1.png'),
-        new ProjectModel("proj 7", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
-        new ProjectModel("proj 8", WORK_TYPES.WEBSITE, '#', 'me.png'),
+        new ProjectModel("Sockets Checklist", WORK_TYPES.LANDING_PAGE, 'https://lp.smoove.io/xqmn', 'checklist1.png'),
+        new ProjectModel("JenyVStudio", WORK_TYPES.MAINTENANCE, 'https://www.jenyvstudio.co.il/', 'maintanence1.png'),
+        new ProjectModel("Wood Wonders", WORK_TYPES.WEBSITE, '#', 'wood-wonders.png'),
         new ProjectModel("proj 9", WORK_TYPES.LANDING_PAGE, '#', 'me.png'),
     ]
     return (
