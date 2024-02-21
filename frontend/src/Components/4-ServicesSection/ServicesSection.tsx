@@ -7,15 +7,15 @@ function ServicesSection(): JSX.Element {
         new ServiceOptionModel(
             "Websites",
             "I develop new websites from scratch custom made specifically for your business needs.",
-            "me.png"),
+            "websites2.png"),
         new ServiceOptionModel(
             "Landing Pages",
             "I make a simple web pages usually designed for selling a product or pulling in leeds.",
-            "me.png"),
+            "websites5.png"),
         new ServiceOptionModel(
             "Management",
             "Already have a website and looking for someone to manage it? look no further!",
-            "me.png")
+            "websites6.png")
     ]
     return (
         <div className="ServicesSection">
