@@ -22,7 +22,10 @@ function ServicesSection(): JSX.Element {
     ]
     return (
         <div className="ServicesSection">
-            <h1>My Services</h1>
+            <div className="services-headers-container">
+                <h1>My Services</h1>
+                <h3>I can offer you...</h3>
+            </div>
             {services.map(s => <div className="col" key={s.header}><Service
                 header={s.header}
                 content={s.content}

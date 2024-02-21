@@ -17,7 +17,7 @@ function GallerySection(): JSX.Element {
     return (
         <div className="GallerySection">
             <div className="gallery-headers-container">
-                <h1>Gallery</h1>
+                <h1>Project Gallery</h1>
                 <h3>Some of my recent projects</h3>
             </div>
             {projects.map(p => <div key={p.project_name}><Project

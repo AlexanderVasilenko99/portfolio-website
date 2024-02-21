@@ -8,12 +8,22 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 0px 100px;
 
-    h1 {
-        @include i.primary_color_text;
-        font-size: 1.35rem;
+    .services-headers-container {
         grid-column: span 3;
-        margin: 0;
-        height: fit-content;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            @include i.primary_color_text;
+            font-size: 1.35rem;
+            margin: 0;
+            height: fit-content;
+        }
+
+        h3 {
+            font-size: .8rem;
+            font-weight: 500;
+        }
     }
 
     .col {
