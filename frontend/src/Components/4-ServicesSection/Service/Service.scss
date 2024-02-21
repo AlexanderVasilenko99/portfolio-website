@@ -1,14 +1,28 @@
 @use "../../../index.scss" as i;
 
 .Service {
+    position: relative;
     height: 500px;
     width: clamp(200px, 25vw, 300px);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    transition: 300ms;
 
-    img {
+    &:hover {
+        .service-icon-container {
+            animation: appear 300ms linear forwards;
+        }
+    }
+
+    &:not(:hover) {
+        .service-icon-container {
+            animation: disappear 300ms linear forwards;
+        }
+    }
+
+    .service-image {
         width: clamp(200px, 25vw, 300px);
         height: 300px;
         border-radius: 50% 50% 0 0;
@@ -27,5 +41,43 @@
 
     p {
         font-size: .6rem;
+    }
+
+    .service-icon-container {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        background-color: i.$primary_color;
+        border-radius: 50% 50% 0 0;
+        display: flex;
+        flex-direction: column;
+        color: i.$secondary_color;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+
+        p {
+            font-size: .5rem;
+        }
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }
