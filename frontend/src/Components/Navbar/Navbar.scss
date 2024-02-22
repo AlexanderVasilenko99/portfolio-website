@@ -1,0 +1,12 @@
+@use '../../index.scss' as i;
+
+.Navbar {
+    @include i.primary_color_background;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}

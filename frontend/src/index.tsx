@@ -9,6 +9,7 @@ import AboutSection from './Components/3-AboutSection/AboutSection';
 import ServicesSection from './Components/4-ServicesSection/ServicesSection';
 import GallerySection from './Components/5-GallerySection/ServicesSection';
 import RecommendationsSection from './Components/6-RecommendationsSection/RecommendationsSection';
+import Navbar from './Components/Navbar/Navbar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ document.title = "Alexander Vasilenko";
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Navbar />
       <FirstSection />
       <ParallaxSection />
       <AboutSection />
