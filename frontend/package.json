@@ -43,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-hash-link": "^2.4.9",
+    "react-router-hash-link": "^2.4.3",
     "sass": "^1.70.0"
   }
 }

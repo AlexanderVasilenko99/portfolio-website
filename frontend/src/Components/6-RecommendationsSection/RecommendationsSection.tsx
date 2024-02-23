@@ -18,7 +18,7 @@ function RecommendationsSection(): JSX.Element {
             'Assaf Lotz - op.com'),
     ]
     return (
-        <div className="RecommendationsSection">
+        <div className="RecommendationsSection" id="recommendations">
             <h1>Client Testimonials</h1>
             {recommendations.map(r => <div className='col' key={r.content}><Recommendation
                 header={r.header}

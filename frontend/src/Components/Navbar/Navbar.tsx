@@ -1,15 +1,15 @@
-import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import "./Navbar.scss";
 
 function Navbar(): JSX.Element {
     return (
         <div className="Navbar">
             <ul>
-                <li><NavLink to='#'>About</NavLink></li>
-                <li><NavLink to='#'>Services</NavLink></li>
-                <li><NavLink to='#'>Portfolio</NavLink></li>
-                <li><NavLink to='#'>Recommendations</NavLink></li>
-                <li><NavLink to='#'>Contact</NavLink></li>
+                <li><HashLink smooth to="#about">About</HashLink></li>
+                <li><HashLink smooth to="#services">Services</HashLink></li>
+                <li><HashLink smooth to="#portfolio">Portfolio</HashLink></li>
+                <li><HashLink smooth to="#recommendations">Recommendations</HashLink></li>
+                <li><HashLink smooth to="#contact">Contact</HashLink></li>
             </ul>
         </div>
     );

@@ -15,7 +15,7 @@ function GallerySection(): JSX.Element {
         new ProjectModel("JenyVStudio", WORK_TYPES.MANAGEMENT, 'https://www.jenyvstudio.co.il/', 'maintanence1.png'),
     ]
     return (
-        <div className="GallerySection">
+        <div className="GallerySection" id="portfolio">
             <div className="gallery-headers-container">
                 <h1>Project Gallery</h1>
                 <h3>Some of my recent projects</h3>

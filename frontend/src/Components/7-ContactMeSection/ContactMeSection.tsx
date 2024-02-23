@@ -1,7 +1,7 @@
+import { useForm } from "react-hook-form";
 import ContactOptionModel from "../../Models/ContactOptionModel";
 import "./ContactMeSection.scss";
 import ContactOption from "./ContactOption/ContactOption";
-import { useForm, SubmitHandler } from "react-hook-form";
 
 function ContactMeSection(): JSX.Element {
 
@@ -13,7 +13,7 @@ function ContactMeSection(): JSX.Element {
 
     const { register, handleSubmit } = useForm();
     return (
-        <div className="ContactMeSection">
+        <div className="ContactMeSection" id="contact">
             <div className="left-col">
                 <p className="reach-out">
                     Reach out today to make your dream website a reality.

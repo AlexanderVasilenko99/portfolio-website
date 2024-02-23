@@ -21,7 +21,7 @@ function ServicesSection(): JSX.Element {
             "landing.png")
     ]
     return (
-        <div className="ServicesSection">
+        <div className="ServicesSection" id="services">
             <div className="services-headers-container">
                 <h1>My Services</h1>
                 <h3>I can offer you...</h3>
