@@ -9,6 +9,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 170px 1fr;
     padding: 0px 100px;
+    scroll-margin-top: 80px;
 
     .col {
         display: flex;
