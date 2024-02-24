@@ -29,6 +29,23 @@
         margin: 0;
         animation: floatIn 2s ease-in 1100ms forwards;
     }
+
+    a {
+        position: absolute;
+        @include i.primary_color_text;
+        @include i.secondary_color_background;
+        opacity: 0;
+        font-weight: 500;
+        font-size: 0.5rem;
+        margin: 0;
+        bottom: 30px;
+        padding: 5px;
+        animation: appearContent 2s ease-in 2000ms forwards;
+
+        &:hover {
+            @include i.tertiary_color_text;
+        }
+    }
 }
 
 @keyframes floatIn {
@@ -40,5 +57,15 @@
     100% {
         opacity: 1;
         bottom: 0;
+    }
+}
+
+@keyframes appearContent {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
