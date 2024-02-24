@@ -5,7 +5,7 @@ function FirstSection(): JSX.Element {
         <div className="FirstSection" id="/#">
             <h1><span>Hello,</span> I am Alex!</h1>
             <h2>I make your dream website a reality.</h2>
-        </div>
+        </div >
     );
 }
 

@@ -13,6 +13,8 @@
         @include i.primary_color_text;
         margin: 10px;
         font-size: 2rem;
+        opacity: 0;
+        animation: floatIn 2s ease-in 0ms forwards;
 
         >span {
             color: black;
@@ -21,8 +23,22 @@
     }
 
     h2 {
+        opacity: 0;
         font-weight: 500;
         font-size: 0.8rem;
         margin: 0;
+        animation: floatIn 2s ease-in 1100ms forwards;
+    }
+}
+
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+        bottom: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
     }
 }
