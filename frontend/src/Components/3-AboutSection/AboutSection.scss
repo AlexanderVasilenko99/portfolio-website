@@ -5,6 +5,8 @@
     @include i.secondary_color_background;
     height: 100vh;
     display: grid;
+
+
     grid-template-columns: 1fr 1fr;
     padding: 100px;
 
@@ -35,6 +37,20 @@
             border-radius: 12px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border: 2px solid i.$tertiary_color;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .AboutSection {
+        height: fit-content;
+        grid-template-columns: 1fr;
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            margin: 0px 0px 30px 0px;
         }
     }
 }
