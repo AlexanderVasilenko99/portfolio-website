@@ -7,10 +7,12 @@
     font-size: .8rem;
     // height: fit-content;
     height: 83px;
+    // top: -83px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 20;
+    transition: top 0.3s;
 
     ul {
         margin: 20px 0px;
