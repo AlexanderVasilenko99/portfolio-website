@@ -17,6 +17,9 @@ body * {
 }
 
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 @mixin primary_color_text {
   color: $primary_color;
@@ -25,6 +28,7 @@ body * {
 @mixin primary_color_background {
   background-color: $primary_color;
 }
+
 @mixin primary_color2_text {
   color: $primary_color2;
 }
