@@ -8,7 +8,6 @@ function Navbar(): JSX.Element {
         window.addEventListener('scroll', () => toggleNavbarVisibility());
         function toggleNavbarVisibility(): void {
             const navDiv = document.querySelector('#navbar') as HTMLDivElement;
-            console.log(window.scrollY);
             if (window.scrollY > 20) navDiv.style.top = '0px'; // show navbar
             else if (window.scrollY == 0) navDiv.style.top = '-83px'; // hide navbar
         }
