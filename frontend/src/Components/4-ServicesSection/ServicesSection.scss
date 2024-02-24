@@ -39,3 +39,20 @@
     }
 
 }
+
+@media only screen and (max-width: 1200px) {
+    .ServicesSection {
+        height: fit-content;
+        grid-template-columns: 1fr;
+        padding: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .col {
+            grid-column: span 3;
+        }
+    }
+}
