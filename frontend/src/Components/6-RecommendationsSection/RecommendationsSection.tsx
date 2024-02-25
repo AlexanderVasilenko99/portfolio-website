@@ -33,7 +33,7 @@ function RecommendationsSection(): JSX.Element {
     ]
     return (
         <div className="RecommendationsSection" id="recommendations">
-            <h1>Client Testimonials</h1>
+            <h1>Don't trust me, trust them!</h1>
             {recommendations.map(r => <div className='col' key={r.content}><Recommendation
                 header={r.header}
                 content={r.content}
