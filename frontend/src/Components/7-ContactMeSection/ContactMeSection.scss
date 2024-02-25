@@ -96,3 +96,36 @@
         }
     }
 }
+@media only screen and (max-width: 1200px) {
+    .ContactMeSection {
+        height: fit-content;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        padding: 0;
+        p {
+            padding: 60px;
+        }
+
+        .right-col {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: fit-content;
+            button{
+                padding-bottom: 60px;
+            }
+            a{
+                width: 365px;
+            }
+            .ContactOption{
+                padding-bottom: 0;
+                &:nth-last-child(1) {
+                    padding-bottom: 0px;
+                }
+            }
+        }
+    }
+}
