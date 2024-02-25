@@ -9,7 +9,11 @@
     direction: rtl;
 
     .header {
+        min-height: 104px;
         font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content {
