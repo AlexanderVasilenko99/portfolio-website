@@ -3,7 +3,8 @@
 
 .RecommendationsSection {
     @include i.primary_color2_background;
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
     display: grid;
     gap: 60px;
     grid-template-columns: repeat(3, 1fr);
@@ -13,8 +14,8 @@
 
     .col {
         display: flex;
-        align-items: center;
-        padding-bottom: 250px
+        align-items: flex-start;
+        // padding-bottom: 250px;
     }
 
     h1 {
@@ -35,6 +36,7 @@
         column-gap: 0;
         padding: 0;
         padding-bottom: 60px;
+
         h1 {
             display: flex;
             justify-content: center;

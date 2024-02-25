@@ -9,13 +9,27 @@ function RecommendationsSection(): JSX.Element {
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio reprehenderit aut harum repellendus eum.',
             'Alex Vas - devLink'),
         new RecommendationModel(
-            'A real homie',
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veniam!',
-            'Jeny V - JenyVStudio'),
+            'ניחן בהבנה עמוקה, מהירות מחשבה ומהירות ביצוע',
+            `אלכסנדר וסילנקו היה תלמיד שלי במסלול Full Stack Web בג'ון ברייס.
+            המסלול כלל פיתוח Frontend ופיתוח Backend 
+            בטכנולוגיות מהחדשות שיש.
+            ברצוני לציין שאלכסנדר השקיע המון בקורס, בתרגולים, בעבודות הבית, במשימות ובפרויקטים , הגיע לרמה
+            מאוד גבוהה ואף ביצע לא מעט דברים מעבר למה שנדרש.
+            כמו כן ראיתי שאלכסנדר אוהב את הנושא , מתחבר לתחום הפיתוח וניחן בהבנה עמוקה, מהירות מחשבה
+            ומהירות ביצוע.
+            אלכסנדר בהחלט יהיה נכס ל כל ארגון בו יבחר לעבוד. 
+            אני מאחל לאלכסנדר הצלחה רבה בכל אשר יפנה.`,
+            `אסף פינקלשטיין, מרצה פיתוח - ג'ון ברייס הדרכה`),
         new RecommendationModel(
-            'A certified gymbro',
-            'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illum rem, nesciunt saepe vitae ullam.',
-            'Assaf Lotz - op.com'),
+            'מקצוען אמיתי',
+            `רציתי להגיד לך תודה רבה על דפי נחיתה שבנית עבורי.
+            עשית עבודה מדויקת והיית מאוד קשוב לצרכים ולבקשות שלי.
+            תודה רבה על ההשקעה, הגדלת הראש והיעילות.
+            אם אני שומעת שמישהו מחפש בניית דפי נחיתה,
+            אני ממליצה עליך בשמחה רבה,
+            כי באמת מגיע לך!
+            מקצוען אמיתי.`,
+            `ג'ני ויאליך - JenyVStudio`),
     ]
     return (
         <div className="RecommendationsSection" id="recommendations">
