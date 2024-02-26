@@ -7,7 +7,7 @@ import RightsSection from "../RightsSection/RightsSection";
 function ContactMeSection(): JSX.Element {
 
     const contactOptions: ContactOptionModel[] = [
-        new ContactOptionModel("Phone", "(+972)50-814-5431", "tel:0508145431", "x.png"),
+        new ContactOptionModel("Phone", "(+972)50-814-5431", "tel:0508145431", "person_icon.png"),
         new ContactOptionModel("Email", "alexandervjr1@gmail.com", "mailto:alexandervjr1@gmail.com", "email_icon.png"),
         new ContactOptionModel("LinkedIn", "alexander-vasilenko99", "https://www.linkedin.com/in/alexander-vasilenko99/", "linkedin_icon.png"),
     ]
