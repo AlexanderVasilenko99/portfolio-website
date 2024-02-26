@@ -21,7 +21,9 @@ function AboutSection(): JSX.Element {
                 </div>
             </div>
             <div className="right-col">
-                <img src={require("../../Assets/Images/me.png")} />
+                <div>
+                    <img src={require("../../Assets/Images/me2.png")} />
+                </div>
             </div>
         </div>
     );

@@ -24,7 +24,7 @@
 
         div {
             font-size: .6rem;
-            
+
             p {
                 text-align: justify;
                 padding-bottom: 20px;
@@ -33,14 +33,28 @@
     }
 
     .right-col {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
 
+        >div {
+            background: linear-gradient(135deg, i.$primary_color , transparent, i.$primary_color);
+            position: absolute;
+            border-radius: 12px;
+            height: 374px;
+        }
+
         img {
+            rotate: (10deg);
             border-radius: 12px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border: 2px solid i.$tertiary_color;
+            transition: 300ms;
+
+            &:hover {
+                rotate: (0deg);
+            }
         }
     }
 }
