@@ -5,7 +5,24 @@ function AboutSection(): JSX.Element {
         <div className="AboutSection" id="about">
             <div className="left-col">
                 <h1>Who Am I?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim suscipit quos error dolorum repudiandae, omnis ea recusandae deserunt quaerat vel. Odio porro minima consectetur accusantium sed? Obcaecati, est rerum nulla assumenda sint, ipsum amet error excepturi aliquid adipisci odit! Repudiandae.</p>
+                <div>
+                    <p>
+                        My name is Alexander Vasilenko and I create beautiful, responsive and custom web applications for a living.
+                        <br />
+                        An ambitious young man with a unique and spicey personality constantly seeking to
+                        improve and better himself and his surrounding.
+                    </p>
+                    {/* <br />
+                    <br /> */}
+                    <p>
+                        I am determined to provide the best products possible any client and take great pride in my work,
+                    </p>
+                    {/* <br />
+                    <br /> */}
+                    <p>
+                        So if you are looking anything web-related, look no further!
+                    </p>
+                </div>
             </div>
             <div className="right-col">
                 <img src={require("../../Assets/Images/me.png")} />
