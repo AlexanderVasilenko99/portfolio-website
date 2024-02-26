@@ -1,9 +1,7 @@
-import { useForm } from "react-hook-form";
 import ContactOptionModel from "../../Models/ContactOptionModel";
 import "./ContactMeSection.scss";
 import ContactOption from "./ContactOption/ContactOption";
-import RightsSection from "../RightsSection/RightsSection";
-
+import Form from "./Form/Form";
 function ContactMeSection(): JSX.Element {
 
     const contactOptions: ContactOptionModel[] = [
@@ -12,7 +10,6 @@ function ContactMeSection(): JSX.Element {
         new ContactOptionModel("LinkedIn", "alexander-vasilenko99", "https://www.linkedin.com/in/alexander-vasilenko99/", "linkedin_icon.png"),
     ]
 
-    const { register, handleSubmit } = useForm();
     return (
         <div className="ContactMeSection" id="contact">
             <div className="left-col">
@@ -20,35 +17,7 @@ function ContactMeSection(): JSX.Element {
                     Reach out today to make your dream website a reality!
                 </p>
                 <hr />
-                <form onSubmit={handleSubmit((e: any) => {
-                    console.log(e);
-                })}>
-                    <div>
-                        <div className="single-input">
-                            <label htmlFor="name">Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                {...register("name")}
-                            />
-                        </div>
-                        <div className="single-input">
-                            <label htmlFor="name">Phone</label>
-                            <input
-                                type="tel"
-                                name="tel"
-                                {...register("tel")} />
-                        </div>
-                        <div className="single-input">
-                            <label htmlFor="name">Email</label>
-                            <input
-                                type="email"
-                                name="email"
-                                {...register("email")} />
-                        </div>
-                    </div>
-                    <button>Send!</button>
-                </form>
+                <Form />
             </div>
             <div className="right-col">
                 {contactOptions.map(co =>
