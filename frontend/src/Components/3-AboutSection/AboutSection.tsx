@@ -12,13 +12,9 @@ function AboutSection(): JSX.Element {
                         An ambitious young man with a unique and spicey personality constantly seeking to
                         improve and better himself and his surrounding.
                     </p>
-                    {/* <br />
-                    <br /> */}
                     <p>
                         I am determined to provide the best products possible any client and take great pride in my work,
                     </p>
-                    {/* <br />
-                    <br /> */}
                     <p>
                         So if you are looking anything web-related, look no further!
                     </p>
