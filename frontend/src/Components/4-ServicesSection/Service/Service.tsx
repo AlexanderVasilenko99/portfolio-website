@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import ServiceOptionModel from "../../../Models/ServiceOptionModel";
 import "./Service.scss";
 
@@ -8,10 +9,10 @@ function Service(props: ServiceOptionModel): JSX.Element {
             <h3>{props.header}</h3>
             <hr />
             <p>{props.content}</p>
-            <div className="service-icon-container">
+            <HashLink smooth className="service-icon-container" to='#contact'>
                 <img src={require(`../../../Assets/Images/${props.icon_image_name}`)} className="service-icon" />
-                <p>Read more</p>
-            </div>
+                <p>Lets talk about {props.header.toLowerCase()}!</p>
+            </HashLink>
         </div>
     );
 }
