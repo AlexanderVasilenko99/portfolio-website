@@ -1,4 +1,5 @@
 import GetInTouchButton from "../Common/GetInTouchButton/GetInTouchButton";
+import ServicesButton from "../Common/ServicesButton/ServicesButton";
 import "./AboutSection.scss";
 
 function AboutSection(): JSX.Element {
@@ -19,7 +20,10 @@ function AboutSection(): JSX.Element {
                         So if you are in the market for anything web-related, look no further!
                     </p>
                 </div>
-                <GetInTouchButton />
+                <div className="buttons">
+                    <GetInTouchButton />
+                    <ServicesButton />
+                </div>
             </div>
             <div className="right-col">
                 <div>
