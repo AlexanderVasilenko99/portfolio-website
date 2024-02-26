@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ParallaxSection from './Components/2-ParallaxSection/ParallaxSection';
 import AboutSection from './Components/3-AboutSection/AboutSection';
 import ServicesSection from './Components/4-ServicesSection/ServicesSection';
-import GallerySection from './Components/5-GallerySection/ServicesSection';
+import GallerySection from './Components/5-GallerySection/GallerySection';
 import RecommendationsSection from './Components/6-RecommendationsSection/RecommendationsSection';
 import Navbar from './Components/Navbar/Navbar';
 
