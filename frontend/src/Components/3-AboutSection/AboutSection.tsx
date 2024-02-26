@@ -8,16 +8,15 @@ function AboutSection(): JSX.Element {
                 <h1>Who Am I?</h1>
                 <div>
                     <p>
-                        My name is Alexander Vasilenko and I create beautiful, responsive and custom web applications for a living.
-                        <br />
-                        An ambitious young man with a unique and spicey personality constantly seeking to
-                        improve and better himself and his surrounding.
+                        My name is Alexander Vasilenko and I create custom made, beautiful, and responsive web applications with
+                        great joy.
                     </p>
                     <p>
-                        I am determined to provide the best products possible any client and take great pride in my work,
+                        An ambitious young man with a unique and funny personality constantly seeking to improve and determined
+                        to provide the best products possible for any client.
                     </p>
                     <p>
-                        So if you are looking anything web-related, look no further!
+                        So if you are in the market for anything web-related, look no further!
                     </p>
                 </div>
                 <GetInTouchButton />
@@ -27,7 +26,7 @@ function AboutSection(): JSX.Element {
                     <img src={require("../../Assets/Images/me2.png")} />
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
