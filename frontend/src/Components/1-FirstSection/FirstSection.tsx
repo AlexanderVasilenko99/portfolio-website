@@ -1,6 +1,6 @@
-import { HashLink } from "react-router-hash-link";
-import "./FirstSection.scss";
 import { NavLink } from "react-router-dom";
+import GetInTouchButton from "../Common/GetInTouchButton/GetInTouchButton";
+import "./FirstSection.scss";
 
 function FirstSection(): JSX.Element {
     return (
@@ -10,7 +10,7 @@ function FirstSection(): JSX.Element {
             <h3>I make your dream website a reality.</h3>
             <div className="buttons">
                 <a href="/Alexander-Vasilenko-CV 2024.pdf" download target="_blank">Download CV</a>
-                <HashLink smooth to='#contact'>Get in touch!</HashLink>
+                <GetInTouchButton />
             </div>
             <div className="links">
                 <NavLink to={'https://www.linkedin.com/in/alexander-vasilenko99/'}>
