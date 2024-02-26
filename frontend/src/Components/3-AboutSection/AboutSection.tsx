@@ -1,3 +1,4 @@
+import GetInTouchButton from "../Common/GetInTouchButton/GetInTouchButton";
 import "./AboutSection.scss";
 
 function AboutSection(): JSX.Element {
@@ -19,6 +20,7 @@ function AboutSection(): JSX.Element {
                         So if you are looking anything web-related, look no further!
                     </p>
                 </div>
+                <GetInTouchButton />
             </div>
             <div className="right-col">
                 <div>
