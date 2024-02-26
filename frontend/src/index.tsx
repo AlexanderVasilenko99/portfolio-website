@@ -10,6 +10,7 @@ import ServicesSection from './Components/4-ServicesSection/ServicesSection';
 import GallerySection from './Components/5-GallerySection/GallerySection';
 import RecommendationsSection from './Components/6-RecommendationsSection/RecommendationsSection';
 import Navbar from './Components/Navbar/Navbar';
+import RightsSection from './Components/RightsSection/RightsSection';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -27,6 +28,7 @@ root.render(
       <GallerySection />
       <RecommendationsSection />
       <ContactMeSection />
+      <RightsSection />
     </BrowserRouter >
   </React.StrictMode>
 );

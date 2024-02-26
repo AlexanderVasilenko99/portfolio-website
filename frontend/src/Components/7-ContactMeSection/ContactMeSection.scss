@@ -96,12 +96,16 @@
         }
     }
 }
+
 @media only screen and (max-width: 1200px) {
     .ContactMeSection {
         height: fit-content;
         grid-template-columns: 1fr;
+        grid-template-rows: 99vh 1vh;
         column-gap: 0;
         padding: 0;
+        position: relative;
+
         p {
             padding: 60px;
         }
@@ -114,14 +118,18 @@
             justify-content: center;
             align-items: center;
             height: fit-content;
-            button{
+
+            button {
                 padding-bottom: 60px;
             }
-            a{
+
+            a {
                 width: 365px;
             }
-            .ContactOption{
+
+            .ContactOption {
                 padding-bottom: 0;
+
                 &:nth-last-child(1) {
                     padding-bottom: 0px;
                 }

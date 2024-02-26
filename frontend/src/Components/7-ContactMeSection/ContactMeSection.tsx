@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import ContactOptionModel from "../../Models/ContactOptionModel";
 import "./ContactMeSection.scss";
 import ContactOption from "./ContactOption/ContactOption";
+import RightsSection from "../RightsSection/RightsSection";
 
 function ContactMeSection(): JSX.Element {
 
