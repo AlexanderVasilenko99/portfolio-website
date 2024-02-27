@@ -1,5 +1,5 @@
 import RecommendationModel from "../../Models/RecommendationModel";
-import Recommendation from "./Recommendation/Recommendation";
+import Recommendation from "./R/Recommendation";
 import "./RecommendationsSection.scss";
 
 function RecommendationsSection(): JSX.Element {
