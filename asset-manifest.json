@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.512572ff.css",
+    "main.js": "/static/js/main.a326e930.js",
+    "static/media/websites5.png": "/static/media/websites5.82a5deb10c13aa6237e3.png",
+    "static/media/websites4.png": "/static/media/websites4.630474ad339b51e579d3.png",
+    "static/media/wood-wonders.png": "/static/media/wood-wonders.feea21b898721f973780.png",
+    "static/media/websites.png": "/static/media/websites.dde6db7786c179cf7813.png",
+    "static/media/websites2.png": "/static/media/websites2.80a847c1761037c198f2.png",
+    "static/media/car-rental.png": "/static/media/car-rental.97d6885eae06ad2a04ce.png",
+    "static/media/websites3.png": "/static/media/websites3.d0dc10952fc8fce45404.png",
+    "static/media/websites6.png": "/static/media/websites6.f5b20abf3495387a19d3.png",
+    "static/media/vasilenko-vacations.png": "/static/media/vasilenko-vacations.2f993328821e03d635ae.png",
+    "static/media/mountains.jpg": "/static/media/mountains.e72fa07edaac985c7659.jpg",
+    "static/media/checklist1.png": "/static/media/checklist1.be5b5f162fb3253cdcf1.png",
+    "static/media/insta-boost3.png": "/static/media/insta-boost3.03a0e3343dac83000c5b.png",
+    "static/media/summer-makeover1.png": "/static/media/summer-makeover1.58a78accebf4afdfbf48.png",
+    "static/media/insta-boost4.png": "/static/media/insta-boost4.ff1e7b6125f9c7640f9f.png",
+    "static/media/maintanence1.png": "/static/media/maintanence1.f56dfe7214508fd6a4fe.png",
+    "static/media/insta-boost1.png": "/static/media/insta-boost1.3745ce952a00cbe3b0c2.png",
+    "static/media/insta-boost2.png": "/static/media/insta-boost2.3892b337996a37f9f9c3.png",
+    "static/media/cinderella3.png": "/static/media/cinderella3.2a89679c5367051a270f.png",
+    "static/media/me.png": "/static/media/me.08fa0d325fb353d5db1c.png",
+    "static/media/colors.png": "/static/media/colors.e76c8e9bad5f2eed4e72.png",
+    "static/media/cinderella2.png": "/static/media/cinderella2.8a11e12172399c03c23e.png",
+    "static/media/logo.png": "/static/media/logo.9dad78c394dd0a8db290.png",
+    "static/media/me2.png": "/static/media/me2.faa07ae643fadb2aa5d3.png",
+    "static/media/cinderella1.png": "/static/media/cinderella1.2f655a0a55b455b1cd8d.png",
+    "static/media/logo3.png": "/static/media/logo3.edef562b956ed18a4538.png",
+    "static/media/logo2.png": "/static/media/logo2.b0704c27968e31f8c117.png",
+    "index.html": "/index.html",
+    "main.512572ff.css.map": "/static/css/main.512572ff.css.map",
+    "main.a326e930.js.map": "/static/js/main.a326e930.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512572ff.css",
+    "static/js/main.a326e930.js"
+  ]
+}
