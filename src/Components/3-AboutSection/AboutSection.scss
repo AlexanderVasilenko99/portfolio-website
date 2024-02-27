@@ -53,6 +53,8 @@
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border: 2px solid i.$tertiary_color;
             transition: 300ms;
+            width: 377px;
+            height: 377px;
 
             &:hover {
                 rotate: (0deg);
