@@ -53,3 +53,15 @@ Form {
         }
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    Form {
+        >div {
+            flex-direction: column;
+            justify-content: space-evenly;
+            .single-input{
+                padding: 0px 20%;
+            }
+        }
+    }
+}
