@@ -98,13 +98,41 @@
             height: fit-content;
             width: 30px;
             margin: 0px 10px;
-            g{
+
+            g {
                 transition: 200ms;
             }
 
             &:hover {
                 g {
                     fill: i.$primary_color;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .FirstSection {
+        h3 {
+            margin-bottom: 300px;
+        }
+
+        .buttons {
+            margin-bottom: 500px;
+        }
+
+        .links {
+            top: 27.5%;
+            a {
+                width: 90px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    width: 50%;
+                    padding: 15px 0px;
                 }
             }
         }
