@@ -88,6 +88,7 @@
 @media only screen and (max-width: 1200px) {
     .Service {
         width: 300px;
-        margin-top: 30px;
+        margin-top: 350px; //was 30px then 130px
+        scale: 1.5;
     }
 }
