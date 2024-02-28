@@ -45,6 +45,7 @@
             position: absolute;
             border-radius: 12px;
             height: 374px;
+            // padding: 50px 0px;
         }
 
         img {
@@ -67,6 +68,7 @@
     .AboutSection {
         height: fit-content;
         grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2.8fr;
 
         h1 {
             display: flex;
