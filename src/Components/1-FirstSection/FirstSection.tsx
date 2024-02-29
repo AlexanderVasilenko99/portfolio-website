@@ -9,7 +9,7 @@ function FirstSection(): JSX.Element {
             <h2>Software Developer</h2>
             <h3>I make your dream website a reality.</h3>
             <div className="buttons">
-                <a href="/Alexander-Vasilenko-CV 2024.pdf" download target="_blank">Download CV</a>
+                <a href="/Alexander Vasilenko CV 2024.pdf" download target="_blank">Download CV</a>
                 <GetInTouchButton />
             </div>
             <div className="links">
