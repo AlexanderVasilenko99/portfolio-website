@@ -61,7 +61,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            height: 25vh;
+            min-height: fit-content;
 
             button {
                 padding-bottom: 60px;
