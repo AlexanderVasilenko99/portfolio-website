@@ -58,11 +58,10 @@
         .right-col {
             width: 100%;
             display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: space-evenly;
             align-items: center;
-            height: fit-content;
+            height: 25vh;
 
             button {
                 padding-bottom: 60px;
@@ -74,6 +73,7 @@
 
             .ContactOption {
                 padding-bottom: 0;
+                scale: 1.5;
 
                 &:nth-last-child(1) {
                     padding-bottom: 0px;
