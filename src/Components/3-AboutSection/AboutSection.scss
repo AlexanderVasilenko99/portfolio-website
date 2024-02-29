@@ -80,3 +80,13 @@
         }
     }
 }
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
