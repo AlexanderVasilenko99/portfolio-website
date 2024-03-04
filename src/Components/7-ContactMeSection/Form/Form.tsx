@@ -1,5 +1,5 @@
-import "./Form.scss";
 import { useForm } from '@formspree/react';
+import "./Form.scss";
 
 function Form(): JSX.Element {
     const [state, handleSubmit] = useForm("mqkrbbyk");
