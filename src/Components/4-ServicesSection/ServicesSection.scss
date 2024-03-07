@@ -44,7 +44,7 @@
     .ServicesSection {
         height: fit-content;
         grid-template-columns: 1fr;
-        padding: 0;
+        padding: 0px 40px;
 
         h1 {
             display: flex;
@@ -53,9 +53,10 @@
 
         .col {
             grid-column: span 3;
-                &:nth-of-type(4) {
-                    margin-bottom: 350px; 
-                }
+
+            &:nth-of-type(4) {
+                margin-bottom: 350px;
+            }
         }
     }
 }
