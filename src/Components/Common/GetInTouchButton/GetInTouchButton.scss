@@ -10,7 +10,6 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     @include i.tertiary_color_background;
     @include i.secondary_color_text;
-    font-size: .5rem;
 
     &:hover {
         @include i.primary_color_background;
