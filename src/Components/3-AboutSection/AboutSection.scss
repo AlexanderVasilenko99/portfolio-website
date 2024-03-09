@@ -98,14 +98,29 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+
+            >div,
+            img {
+                width: 40vw;
+                height: 40vw;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .AboutSection {
+        .right-col {
 
             >div,
             img {
                 width: 60vw;
                 height: 60vw;
-                overflow: visible;
             }
-
         }
     }
 }
