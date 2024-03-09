@@ -87,13 +87,14 @@
 
 @media only screen and (max-width: 1200px) {
     .Service {
-        width: 300px;
+        width: 225px;
         height: fit-content;
         display: flex;
         // margin-top: 60px; //was 30px then 130px
         .service-image,
         .service-icon-container {
-            scale: .6;
+            width: 225px;
+            height: 225px;
         }
     }
 }
