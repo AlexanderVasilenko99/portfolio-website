@@ -6,7 +6,7 @@ function FirstSection(): JSX.Element {
     return (
         <div className="FirstSection" id="/#">
             <h1><span>Hello,</span> I am Alex!</h1>
-            <h2>Software Developer</h2>
+            <h2>Fullstack Developer</h2>
             <h3>I make your dream website a reality.</h3>
             <div className="buttons">
                 <a href="/Alexander Vasilenko CV 2024.pdf" download target="_blank">Download CV</a>
