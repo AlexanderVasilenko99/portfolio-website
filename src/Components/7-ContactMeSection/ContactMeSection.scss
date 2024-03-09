@@ -46,15 +46,14 @@
     .ContactMeSection {
         height: fit-content;
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 1fr;
         column-gap: 0;
         padding: 0;
         position: relative;
 
         p {
-            padding: 60px;
+            padding: 40px 20px 0px;
         }
-
+        
         .right-col {
             width: 100%;
             display: flex;
