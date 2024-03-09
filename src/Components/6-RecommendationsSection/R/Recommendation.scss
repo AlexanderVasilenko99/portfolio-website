@@ -35,5 +35,11 @@
 @media only screen and (max-width: 1200px) {
     .Recommendation {
         height: fit-content;
+        min-height: fit-content;
+        margin-bottom: 40px;
+
+        .header {
+            min-height: 0;
+        }
     }
 }

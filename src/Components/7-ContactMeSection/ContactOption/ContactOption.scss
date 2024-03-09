@@ -31,6 +31,14 @@
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .ContactOption {
+        .header-content-container {
+            justify-content: center;
+        }
+    }
+}
+
 @keyframes pulse-animation {
     0% {
         box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.275);

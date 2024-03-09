@@ -53,7 +53,7 @@
         p {
             padding: 40px 20px 0px;
         }
-        
+
         .right-col {
             width: 100%;
             display: flex;
@@ -67,11 +67,13 @@
             }
 
             a {
-                width: 365px;
+                width: 100%;
+                padding-left: 40px;
             }
 
             .ContactOption {
                 padding-bottom: 0;
+                margin: 10px 10px;
 
                 &:nth-last-child(1) {
                     padding-bottom: 0px;
