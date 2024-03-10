@@ -61,10 +61,15 @@ Form {
             justify-content: space-evenly;
 
             .single-input {
-                padding: 0px 20px;
+                padding: 0px 25vw;
 
                 input {
-                    height: 60px;
+                    height: 50px;
+
+                    &::first-line {
+                        color: i.$primary_color;
+                        font-size: 1rem;
+                    }
                 }
             }
         }
