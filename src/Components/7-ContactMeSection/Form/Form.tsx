@@ -52,7 +52,7 @@ function Form(): JSX.Element {
                 </div>
             </div>
             <button type="submit" disabled={state.submitting}>
-                Send!
+                Send
             </button>
         </form>
     );
