@@ -5,9 +5,13 @@ import "./RecommendationsSection.scss";
 function RecommendationsSection(): JSX.Element {
     const recommendations: RecommendationModel[] = [
         new RecommendationModel(
-            'A true professional',
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio reprehenderit aut harum repellendus eum.',
-            'Alex Vas - devLink'),
+            'חיל ואדם למופת',
+            `אלכס היה פקוד שלי במשך כשנתיים בהן גיליתי חייל ואדם למופת.
+            בהובלתי אלכס ניהל בהצלחה פרויקטים בקנה מידה רחב וגילה בגרות,
+            ראייה מערכתית מרשימה ויכולת למידה מהירה שלקחה חלק משמעותי בהצלחתו בתפקיד.
+            אלכס פעל במסירות ומקצועיות תוך לקיחת יוזמה ונטילת אחריות מעבר למצופה ממנו.
+            אני מאחל לאלכס הצלחה בכל אשר יפנה ובטוח כי יגיע רחוק.`,
+            'סגן גיא גולדשטיין'),
         new RecommendationModel(
             'ניחן בהבנה עמוקה, מהירות מחשבה ומהירות ביצוע',
             `אלכסנדר וסילנקו היה תלמיד שלי במסלול Full Stack Web בג'ון ברייס.
