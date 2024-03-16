@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9b25fd4e.css",
-    "main.js": "./static/js/main.b853c64b.js",
+    "main.css": "./static/css/main.911d9480.css",
+    "main.js": "./static/js/main.d50bc8ea.js",
     "static/media/websites5.png": "./static/media/websites5.82a5deb10c13aa6237e3.png",
     "static/media/websites4.png": "./static/media/websites4.630474ad339b51e579d3.png",
     "static/media/wood-wonders.png": "./static/media/wood-wonders.feea21b898721f973780.png",
@@ -30,11 +30,11 @@
     "static/media/logo3.png": "./static/media/logo3.edef562b956ed18a4538.png",
     "static/media/logo2.png": "./static/media/logo2.b0704c27968e31f8c117.png",
     "index.html": "./index.html",
-    "main.9b25fd4e.css.map": "./static/css/main.9b25fd4e.css.map",
-    "main.b853c64b.js.map": "./static/js/main.b853c64b.js.map"
+    "main.911d9480.css.map": "./static/css/main.911d9480.css.map",
+    "main.d50bc8ea.js.map": "./static/js/main.d50bc8ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b25fd4e.css",
-    "static/js/main.b853c64b.js"
+    "static/css/main.911d9480.css",
+    "static/js/main.d50bc8ea.js"
   ]
 }
