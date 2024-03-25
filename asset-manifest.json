@@ -1,12 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.911d9480.css",
-    "main.js": "./static/js/main.d50bc8ea.js",
+    "main.js": "./static/js/main.99e1dda5.js",
     "static/media/websites5.png": "./static/media/websites5.82a5deb10c13aa6237e3.png",
+    "static/media/websites7.png": "./static/media/websites7.a5ceb2262fe10de8c4a9.png",
+    "static/media/websites9.png": "./static/media/websites9.7e68ccc2975053febdfa.png",
     "static/media/websites4.png": "./static/media/websites4.630474ad339b51e579d3.png",
-    "static/media/wood-wonders.png": "./static/media/wood-wonders.feea21b898721f973780.png",
+    "static/media/websites8.png": "./static/media/websites8.51c4e1848bbeeb51b448.png",
     "static/media/websites.png": "./static/media/websites.dde6db7786c179cf7813.png",
+    "static/media/websites7.1.png": "./static/media/websites7.1.8eb97567b9702f10aea9.png",
     "static/media/websites2.png": "./static/media/websites2.80a847c1761037c198f2.png",
+    "static/media/websites9.1.png": "./static/media/websites9.1.9d2608b8bb110c9e8fcd.png",
     "static/media/car-rental.png": "./static/media/car-rental.97d6885eae06ad2a04ce.png",
     "static/media/websites3.png": "./static/media/websites3.d0dc10952fc8fce45404.png",
     "static/media/websites6.png": "./static/media/websites6.f5b20abf3495387a19d3.png",
@@ -20,6 +24,7 @@
     "static/media/maintanence1.png": "./static/media/maintanence1.f56dfe7214508fd6a4fe.png",
     "static/media/insta-boost1.png": "./static/media/insta-boost1.3745ce952a00cbe3b0c2.png",
     "static/media/insta-boost2.png": "./static/media/insta-boost2.3892b337996a37f9f9c3.png",
+    "static/media/wood-wonders.png": "./static/media/wood-wonders.b1bfbcb09295fc7aabda.png",
     "static/media/cinderella3.png": "./static/media/cinderella3.2a89679c5367051a270f.png",
     "static/media/me.png": "./static/media/me.08fa0d325fb353d5db1c.png",
     "static/media/colors.png": "./static/media/colors.e76c8e9bad5f2eed4e72.png",
@@ -31,10 +36,10 @@
     "static/media/logo2.png": "./static/media/logo2.b0704c27968e31f8c117.png",
     "index.html": "./index.html",
     "main.911d9480.css.map": "./static/css/main.911d9480.css.map",
-    "main.d50bc8ea.js.map": "./static/js/main.d50bc8ea.js.map"
+    "main.99e1dda5.js.map": "./static/js/main.99e1dda5.js.map"
   },
   "entrypoints": [
     "static/css/main.911d9480.css",
-    "static/js/main.d50bc8ea.js"
+    "static/js/main.99e1dda5.js"
   ]
 }
