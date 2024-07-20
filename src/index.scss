@@ -1,16 +1,23 @@
 :root {
   font-size: clamp(20px, 5vw, 40px);
   display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   width: 100vw !important;
 }
 
-$primary_color: #9B4819;
-$primary_color2: #314028;
-$secondary_color: #F4F1E8;
-$tertiary_color: #BD8F53;
+// $primary_color: #9B4819;
+// $primary_color2: #314028;
+// $secondary_color: #F4F1E8;
+// $tertiary_color: #BD8F53;
+
+$primary_color: #555555;
+$primary_color2: #777777;
+$secondary_color: #E0E0E0;
+$tertiary_color: #999999;
+
+// $primary_color: #4A4A4A;
+// $primary_color2: #6E6E6E; 
+// $secondary_color: #D8D8D8;
+// $tertiary_color: #A1A1A1;
 
 html,
 body,
@@ -19,7 +26,6 @@ body * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  // overflow-x: hidden;
 }
 
 
