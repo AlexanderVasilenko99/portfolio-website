@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.911d9480.css",
-    "main.js": "./static/js/main.6a86a075.js",
+    "main.css": "./static/css/main.778ae628.css",
+    "main.js": "./static/js/main.5cb37e1f.js",
     "static/media/websites7.png": "./static/media/websites7.a5ceb2262fe10de8c4a9.png",
     "static/media/websites9.png": "./static/media/websites9.7e68ccc2975053febdfa.png",
     "static/media/websites8.png": "./static/media/websites8.51c4e1848bbeeb51b448.png",
@@ -28,15 +28,19 @@
     "static/media/logo.png": "./static/media/logo.9dad78c394dd0a8db290.png",
     "static/media/me2.png": "./static/media/me2.faa07ae643fadb2aa5d3.png",
     "static/media/cinderella1.png": "./static/media/cinderella1.2f655a0a55b455b1cd8d.png",
+    "static/media/workme.jpeg": "./static/media/workme.6a5344cd78bdab4838fe.jpeg",
+    "static/media/workmesquare.jpeg": "./static/media/workmesquare.72b5840000fcf1897276.jpeg",
     "static/media/pbranalytics.png": "./static/media/pbranalytics.e68a847f96e3506ca963.png",
     "static/media/logo3.png": "./static/media/logo3.edef562b956ed18a4538.png",
     "static/media/logo2.png": "./static/media/logo2.b0704c27968e31f8c117.png",
+    "static/media/domain1.png": "./static/media/domain1.7801615f23f2b2d8d7b3.png",
+    "static/media/tech1.png": "./static/media/tech1.7d624cef9f65e38ef4e8.png",
     "index.html": "./index.html",
-    "main.911d9480.css.map": "./static/css/main.911d9480.css.map",
-    "main.6a86a075.js.map": "./static/js/main.6a86a075.js.map"
+    "main.778ae628.css.map": "./static/css/main.778ae628.css.map",
+    "main.5cb37e1f.js.map": "./static/js/main.5cb37e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.911d9480.css",
-    "static/js/main.6a86a075.js"
+    "static/css/main.778ae628.css",
+    "static/js/main.5cb37e1f.js"
   ]
 }
