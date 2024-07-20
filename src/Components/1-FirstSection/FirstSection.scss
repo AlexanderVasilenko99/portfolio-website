@@ -95,6 +95,7 @@
         // animation: appearContent 2s ease-in 4000ms forwards;
 
         svg {
+            filter: grayscale(1);
             height: fit-content;
             width: 30px;
             margin: 0px 10px;
