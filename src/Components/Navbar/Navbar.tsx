@@ -2,6 +2,8 @@ import { HashLink } from 'react-router-hash-link';
 import "./Navbar.scss";
 import logo from '../../Assets/Images/logo3.png';
 import { useEffect, useState } from 'react';
+import { Squash as Hamburger } from 'hamburger-react';
+
 
 function Navbar(): JSX.Element {
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -18,8 +20,11 @@ function Navbar(): JSX.Element {
     return (
         <div className="Navbar" id='navbar'>
             <ul>
-                <li className='mobile-trigger' onClick={() => setIsOpen(!isOpen)}><a className='hamburger-menu'>XXXXXXX</a></li>
-                {/* <li className='mobile-trigger' onClick={() => setIsOpen(!isOpen)}><a className='hamburger-menu'>XXXXXXX</a></li> */}
+                <li className='mobile-trigger' onClick={() => setIsOpen(!isOpen)}><a className='hamburger-menu'>
+
+                    <Hamburger/>
+
+                </a></li>
                 <li className='mobile-logo'><HashLink smooth to="/#"><img src={logo} /></HashLink></li>
                 <li className={`item ${isOpen ? "is-open" : ""}`}>
                     <ul className='inner-ul'>
@@ -33,8 +38,8 @@ function Navbar(): JSX.Element {
                         </li>
                     </ul>
                 </li>
-                
-                
+
+
             </ul>
         </div>
     );

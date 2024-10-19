@@ -128,9 +128,13 @@
             display: inline-block;
 
             li {
-                &.mobile-logo{
+                transition: 300ms;
+
+                &.mobile-logo {
                     float: right;
-                }&.mobile-trigger {
+                }
+
+                &.mobile-trigger {
                     float: left;
                 }
 
@@ -140,7 +144,15 @@
                     height: 100%;
                     // width: 40%;
                     @include i.primary_color_background;
+
                     // height: 65px;
+                    a {
+
+                        &:before,
+                        &:after {
+                            display: none;
+                        }
+                    }
                 }
 
                 &.item,
