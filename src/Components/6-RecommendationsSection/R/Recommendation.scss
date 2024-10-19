@@ -32,11 +32,11 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 769px) {
     .Recommendation {
         height: fit-content;
         min-height: fit-content;
-        margin-bottom: 140px;
+        margin-bottom: 100px;
 
         .header {
             min-height: 0;
