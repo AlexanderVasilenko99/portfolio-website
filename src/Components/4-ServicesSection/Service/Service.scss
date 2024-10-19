@@ -85,7 +85,7 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 769px) {
     .Service {
         width: 100%;
         height: fit-content;
@@ -94,7 +94,7 @@
         .service-image,
         .service-icon-container {
             width: 100%;
-            // height: 100%;
+            height: auto;
         }
     }
 }
