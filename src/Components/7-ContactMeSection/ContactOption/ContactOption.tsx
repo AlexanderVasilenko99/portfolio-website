@@ -10,7 +10,7 @@ function ContactOption(props: ContactOptionModel): JSX.Element {
             </div>
             <div className="header-content-container">
                 <div className="header">
-                    {props.header}
+                    {/* {props.header} */}
                 </div>
                 <div className="content">
                     {props.content}

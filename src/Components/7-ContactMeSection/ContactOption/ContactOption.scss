@@ -32,10 +32,14 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 769px) {
     .ContactOption {
+        flex-direction: column;
         .header-content-container {
-            justify-content: center;
+            // justify-content: center;
+            .header{
+                height: 14px;
+            }
         }
     }
 }
