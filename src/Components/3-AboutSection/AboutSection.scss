@@ -64,12 +64,12 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 796px) {
     .AboutSection {
         height: fit-content;
         padding: 0px 40px;
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 2.8fr;
+        grid-template-rows: 3fr 2fr;
 
         h1 {
             display: flex;
@@ -105,8 +105,8 @@
 
             >div,
             img {
-                width: 40vw;
-                height: 40vw;
+                width: 50vw;
+                height: 50vw;
             }
 
         }
