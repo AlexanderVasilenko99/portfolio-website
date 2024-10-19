@@ -1,9 +1,11 @@
 import { HashLink } from 'react-router-hash-link';
 import "./Navbar.scss";
 import logo from '../../Assets/Images/logo3.png';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function Navbar(): JSX.Element {
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+
     useEffect(() => {
         window.addEventListener('scroll', () => toggleNavbarVisibility());
         function toggleNavbarVisibility(): void {
@@ -16,12 +18,23 @@ function Navbar(): JSX.Element {
     return (
         <div className="Navbar" id='navbar'>
             <ul>
-                <li><HashLink smooth to="#about">About</HashLink></li>
-                <li><HashLink smooth to="#services">Services</HashLink></li>
-                <li><HashLink smooth to="#portfolio">Portfolio</HashLink></li>
-                <li><HashLink smooth to="/#"><img src={logo} /></HashLink></li>
-                <li><HashLink smooth to="#recommendations">Recommendations</HashLink></li>
-                <li><HashLink smooth to="#contact">Contact</HashLink></li>
+                <li className='mobile-trigger' onClick={() => setIsOpen(!isOpen)}><a className='hamburger-menu'>XXXXXXX</a></li>
+                {/* <li className='mobile-trigger' onClick={() => setIsOpen(!isOpen)}><a className='hamburger-menu'>XXXXXXX</a></li> */}
+                <li className='mobile-logo'><HashLink smooth to="/#"><img src={logo} /></HashLink></li>
+                <li className={`item ${isOpen ? "is-open" : ""}`}>
+                    <ul className='inner-ul'>
+                        <li className='inner-li'>
+                            <HashLink smooth to="#about">About</HashLink>
+                            <HashLink smooth to="#services">Services</HashLink>
+                            <HashLink smooth to="#portfolio">Portfolio</HashLink>
+                            <HashLink smooth to="/#" className='desktop-logo'><img src={logo} /></HashLink>
+                            <HashLink smooth to="#recommendations">Recommendations</HashLink>
+                            <HashLink smooth to="#contact">Contact</HashLink>
+                        </li>
+                    </ul>
+                </li>
+                
+                
             </ul>
         </div>
     );

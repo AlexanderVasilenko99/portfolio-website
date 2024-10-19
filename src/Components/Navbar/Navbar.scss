@@ -6,8 +6,8 @@
     width: 100%;
     font-size: .8rem;
     // height: fit-content;
-    height: 65px;
-    top: -65px;
+    height: 100px;
+    top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,9 @@
 
             a {
                 position: relative;
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 text-transform: uppercase;
                 padding: 10px 20px;
                 text-decoration: none;
@@ -35,6 +37,7 @@
                 font-size: .45rem;
                 transition: .5s;
                 width: 105%;
+                height: 100%;
                 z-index: 1;
 
                 &:before {
@@ -96,12 +99,17 @@
                         border: 0;
                     }
                 }
+            }
 
-                // padding: 0;
-                img {
-                    width: 45px;
-                    margin: 0px 10px;
-                }
+            // padding: 0;
+            &.mobile-logo,
+            &.mobile-trigger {
+                display: none;
+            }
+
+            img {
+                width: 45px;
+                margin: 0px 10px;
             }
 
         }
@@ -110,6 +118,60 @@
 
 @media only screen and (max-width: 900px) {
     .Navbar {
-    
+        height: 100px;
+        top: -100px;
+
+        ul {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+
+            li {
+                &.mobile-logo{
+                    float: right;
+                }&.mobile-trigger {
+                    float: left;
+                }
+
+                &.mobile-logo,
+                &.mobile-trigger {
+                    display: inline-block;
+                    height: 100%;
+                    // width: 40%;
+                    @include i.primary_color_background;
+                    // height: 65px;
+                }
+
+                &.item,
+                .desktop-logo {
+                    display: none;
+
+                    &.is-open {
+                        transition: 300ms;
+                        display: block;
+                        @include i.primary_color_background;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 65px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+
+                            &.desktop-logo {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                &.inner-li {
+                    @include i.primary_color_background;
+                    display: block;
+                }
+            }
+        }
     }
 }
