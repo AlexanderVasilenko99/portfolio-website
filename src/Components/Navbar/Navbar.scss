@@ -70,6 +70,15 @@
                     z-index: -1;
                 }
 
+                &.desktop-logo {
+
+                    // background-color: red;
+                    &:before,
+                    &:after {
+                        border: 0;
+                    }
+                }
+
                 &:hover {
                     // @include i.primary_color_text;
 
@@ -84,23 +93,6 @@
                     }
                 }
             }
-
-
-            &:nth-child(4) {
-                overflow: visible;
-
-                a {
-                    padding: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    &:before {
-                        border: 0;
-                    }
-                }
-            }
-
             // padding: 0;
             &.mobile-logo,
             &.mobile-trigger {
@@ -137,9 +129,11 @@
                 &.mobile-trigger {
                     float: left;
                 }
-                a{
+
+                a {
                     height: 100%;
                 }
+
                 &.mobile-logo,
                 &.mobile-trigger {
                     display: inline-block;
@@ -149,7 +143,7 @@
 
                     // height: 65px;
                     a {
-                        
+
                         &:before,
                         &:after {
                             display: none;
