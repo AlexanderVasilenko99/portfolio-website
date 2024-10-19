@@ -69,8 +69,11 @@
                 width: 100%;
                 margin: 0;
                 border: 0;
-                bottom: 40px;
-                top: 60%;
+                // bottom: 40px;
+                top: 65%;
+                height: 30px;
+                display: flex;
+                align-items: center;
             }
         }
     }
