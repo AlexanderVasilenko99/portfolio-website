@@ -2,6 +2,10 @@
   font-size: clamp(20px, 5vw, 40px);
   display: flex;
   width: 100vw !important;
+
+  --soft-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --bold-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 // $primary_color: #9B4819;

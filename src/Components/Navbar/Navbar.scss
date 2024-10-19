@@ -13,6 +13,7 @@
     align-items: center;
     z-index: 20;
     transition: top 0.3s;
+    box-shadow: var(--bold-box-shadow);
 
     ul {
         margin: 20px 0px;
@@ -159,6 +160,7 @@
                         transition: 300ms;
                         display: block;
                         @include i.primary_color_background;
+                        box-shadow: var(--bold-box-shadow);
 
                         a {
                             display: block;
