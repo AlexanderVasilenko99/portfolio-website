@@ -118,6 +118,7 @@
         }
 
         .links {
+            max-height: 40px;
             bottom: 0;
             border-radius: 0px;
             flex-direction: row;
@@ -125,7 +126,7 @@
 
             a {
                 width: 10vw;
-                max-height: 400px;
+                max-height: 40px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
