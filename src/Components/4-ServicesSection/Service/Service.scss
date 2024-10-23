@@ -50,12 +50,14 @@
             font-size: .5rem;
         }
 
-        &:hover {
+        &:hover,
+        &:active {
             cursor: pointer;
             animation: appear 300ms linear forwards;
         }
 
-        &:not(:hover) {
+        &:not(:hover),
+        &:not(:active) {
             animation: disappear 300ms linear forwards;
         }
     }
@@ -90,11 +92,21 @@
         width: 100%;
         height: fit-content;
         display: flex;
+
         // margin-top: 60px; //was 30px then 130px
         .service-image,
         .service-icon-container {
             width: 100%;
             height: auto;
+
+            .service-icon {
+                width: 50%;
+                padding: 35px 0px 0px;
+            }
+
+            p {
+                padding-bottom: 35px;
+            }
         }
     }
 }
