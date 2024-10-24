@@ -16,7 +16,7 @@ function Form(): JSX.Element {
                     <input
                         required
                         minLength={2}
-                        maxLength={15}
+                        maxLength={25}
                         id="name"
                         type="text"
                         name="name"
@@ -42,7 +42,7 @@ function Form(): JSX.Element {
                     <input
                         required
                         minLength={2}
-                        maxLength={15}
+                        maxLength={50}
                         id="email"
                         type="email"
                         name="email"

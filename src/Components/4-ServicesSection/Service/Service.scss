@@ -56,8 +56,7 @@
             animation: appear 300ms linear forwards;
         }
 
-        &:not(:hover),
-        &:not(:active) {
+        &:not(:hover) {
             animation: disappear 300ms linear forwards;
         }
     }
@@ -101,11 +100,11 @@
 
             .service-icon {
                 width: 50%;
-                padding: 35px 0px 0px;
+                padding: 40px 0px 0px;
             }
 
             p {
-                padding-bottom: 35px;
+                padding-bottom: 40px;
             }
         }
     }
