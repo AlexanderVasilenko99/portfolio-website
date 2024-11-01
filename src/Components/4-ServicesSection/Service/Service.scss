@@ -107,5 +107,42 @@
                 padding-bottom: 40px;
             }
         }
+
+
+        &.visible {
+            &:nth-of-type(odd) {
+                animation: slideIn 1.5s ease 0s 1 normal forwards;
+            }
+
+
+            &:nth-of-type(even) {
+                animation: slideInReverse 1.5s ease 0s 1 normal forwards;
+
+            }
+        }
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+@keyframes slideInReverse {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0px;
     }
 }

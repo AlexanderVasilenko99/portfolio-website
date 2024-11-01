@@ -26,12 +26,13 @@ function ServicesSection(): JSX.Element {
                 <h1>My Services</h1>
                 <h3>I can offer you...</h3>
             </div>
-            {services.map(s => <div className="col" key={s.header}><Service
-                header={s.header}
-                content={s.content}
-                image_name={s.image_name}
-                icon_image_name={s.icon_image_name}
-            />
+            {services.map(s => <div className="col">
+                <Service
+                    header={s.header}
+                    content={s.content}
+                    image_name={s.image_name}
+                    icon_image_name={s.icon_image_name}
+                />
             </div>)}
         </div >
     );

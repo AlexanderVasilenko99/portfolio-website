@@ -1,10 +1,13 @@
 import { HashLink } from "react-router-hash-link";
 import ServiceOptionModel from "../../../Models/ServiceOptionModel";
 import "./Service.scss";
+import { useInView } from "react-intersection-observer";
 
 function Service(props: ServiceOptionModel): JSX.Element {
+    const [serviceInViewRef, serviceInView] = useInView({ triggerOnce: false })
+
     return (
-        <div className="Service">
+        <div className={`Service ${serviceInView ? "visible" : ""}`} ref={serviceInViewRef}>
             <img src={require(`../../../Assets/Images/${props.image_name}`)} className="service-image" />
             <h3>{props.header}</h3>
             <hr />
