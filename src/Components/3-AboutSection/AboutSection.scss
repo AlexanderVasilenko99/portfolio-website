@@ -111,6 +111,12 @@
 
         }
     }
+
+    * {
+        &.visible {
+            animation: aboutHeaderAnim 1.5s ease 0s 1 normal forwards;
+        }
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -133,5 +139,20 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes aboutHeaderAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        // transform-origin: right;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0px;
+        // transform: rotateX(0);
+        // transform-origin: right;
     }
 }

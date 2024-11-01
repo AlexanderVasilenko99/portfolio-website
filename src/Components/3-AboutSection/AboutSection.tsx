@@ -1,13 +1,19 @@
 import GetInTouchButton from "../Common/GetInTouchButton/GetInTouchButton";
 import ServicesButton from "../Common/ServicesButton/ServicesButton";
 import "./AboutSection.scss";
+import { useInView } from 'react-intersection-observer';
 
 function AboutSection(): JSX.Element {
+    const [aboutHeaderRef, aboutHeaderInView] = useInView({ triggerOnce: false });
+    const [aboutContentRef, aboutContentInView] = useInView({ triggerOnce: false });
+
     return (
         <div className="AboutSection" id="about">
             <div className="left-col">
-                <h1>Who Am I?</h1>
-                <div>
+                <h1 className={`${aboutHeaderInView ? `visible` : ``}`} ref={aboutHeaderRef}>
+                    Who Am I?
+                </h1>
+                <div className={` ${aboutContentInView ? `visible` : ``}`} ref={aboutContentRef}>
                     <p>
                         My name is Alexander Vasilenko and I create custom made, beautiful, and responsive web applications with
                         great joy.
