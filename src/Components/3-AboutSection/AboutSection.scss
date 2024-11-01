@@ -60,6 +60,9 @@
             &:hover {
                 rotate: (0deg);
             }
+            &.profile-pic-visible {
+                animation: toggleProfileRotate 1.5s ease 0s 1 normal forwards;
+            }
         }
     }
 }
@@ -154,5 +157,17 @@
         bottom: 0px;
         // transform: rotateX(0);
         // transform-origin: right;
+    }
+}
+
+@keyframes toggleProfileRotate {
+    0% {
+        rotate: (10deg);
+    }
+    50% {
+        rotate: (0deg);
+    }
+    100% {
+        rotate: (10deg);
     }
 }

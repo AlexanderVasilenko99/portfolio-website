@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 function AboutSection(): JSX.Element {
     const [aboutHeaderRef, aboutHeaderInView] = useInView({ triggerOnce: false });
     const [aboutContentRef, aboutContentInView] = useInView({ triggerOnce: false });
+    const [profilePicInViewRef, profilePicInView] = useInView({ triggerOnce: false });
 
     return (
         <div className="AboutSection" id="about">
@@ -13,7 +14,7 @@ function AboutSection(): JSX.Element {
                 <h1 className={`${aboutHeaderInView ? `visible` : ``}`} ref={aboutHeaderRef}>
                     Who Am I?
                 </h1>
-                <div className={` ${aboutContentInView ? `visible` : ``}`} ref={aboutContentRef}>
+                <div className={`${aboutContentInView ? `visible` : ``}`} ref={aboutContentRef}>
                     <p>
                         My name is Alexander Vasilenko and I create custom made, beautiful, and responsive web applications with
                         great joy.
@@ -33,7 +34,11 @@ function AboutSection(): JSX.Element {
             </div>
             <div className="right-col">
                 <div>
-                    <img src={require("../../Assets/Images/workmesquare.jpeg")} />
+                    <img
+                        ref={profilePicInViewRef}
+                        src={require("../../Assets/Images/workmesquare.jpeg")}
+                        className={`${profilePicInView ? 'profile-pic-visible' : ""}`}
+                    />
                 </div>
             </div>
         </div >
