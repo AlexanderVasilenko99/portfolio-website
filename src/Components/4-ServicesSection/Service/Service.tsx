@@ -4,10 +4,10 @@ import "./Service.scss";
 import { useInView } from "react-intersection-observer";
 
 function Service(props: ServiceOptionModel): JSX.Element {
-    const [serviceInViewRef, serviceInView] = useInView({ triggerOnce: false })
+    const [serviceInViewRef, serviceInView] = useInView({ triggerOnce: true })
 
     return (
-        <div className={`Service ${serviceInView ? "visible" : ""}`} ref={serviceInViewRef}>
+        <div className={`Service ${props.id % 2 == 0 ? "even" : "odd"} ${serviceInView ? "visible" : ""}`} ref={serviceInViewRef}>
             <img src={require(`../../../Assets/Images/${props.image_name}`)} className="service-image" />
             <h3>{props.header}</h3>
             <hr />

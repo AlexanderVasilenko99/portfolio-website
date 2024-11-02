@@ -5,16 +5,19 @@ import "./ServicesSection.scss";
 function ServicesSection(): JSX.Element {
     const services: ServiceOptionModel[] = [
         new ServiceOptionModel(
+            1,
             "Websites",
             "I develop new websites from scratch custom made specifically for your business needs.",
             "websites7.1.png",
             'tech1.png'),
         new ServiceOptionModel(
+            2,
             "Landing Pages",
             "I make a simple web pages usually designed for selling a product or pulling in leeds.",
             "websites9.1.png",
             "domain1.png"),
         new ServiceOptionModel(
+            3,
             "Management",
             "Already have a website and looking for someone to manage it? look no further!",
             "websites8.png",
@@ -28,6 +31,7 @@ function ServicesSection(): JSX.Element {
             </div>
             {services.map(s => <div className="col">
                 <Service
+                    id={s.id}
                     header={s.header}
                     content={s.content}
                     image_name={s.image_name}

@@ -60,9 +60,6 @@
             &:hover {
                 rotate: (0deg);
             }
-            &.profile-pic-visible {
-                animation: toggleProfileRotate 1.5s ease 0s 1 normal forwards;
-            }
         }
     }
 }
@@ -110,6 +107,10 @@
             img {
                 width: 50vw;
                 height: 50vw;
+
+                &.profile-pic-visible {
+                    animation: toggleProfileRotate 1.5s ease 0s 1 normal forwards;
+                }
             }
 
         }

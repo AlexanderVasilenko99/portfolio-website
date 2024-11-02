@@ -110,12 +110,12 @@
 
 
         &.visible {
-            &:nth-of-type(odd) {
+            &.odd {
                 animation: slideIn 1.5s ease 0s 1 normal forwards;
             }
 
 
-            &:nth-of-type(even) {
+            &.even {
                 animation: slideInReverse 1.5s ease 0s 1 normal forwards;
 
             }
