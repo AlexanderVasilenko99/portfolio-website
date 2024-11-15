@@ -7,6 +7,12 @@
     padding-bottom: 5px;
     height: fit-content;
 
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     padding: 10px 0;
+}
+
+@media screen and (max-width: 760px) {
+    .RightsSection {
+        margin-bottom: 40px;
+    }
 }

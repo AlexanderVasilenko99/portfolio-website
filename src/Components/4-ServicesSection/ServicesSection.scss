@@ -3,6 +3,7 @@
 
 .ServicesSection {
     @include i.tertiary_color_background;
+    background-color: #9999998c;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -55,14 +56,17 @@
             h1 {
                 display: flex;
                 justify-content: center;
-                margin: 30px 0 0;
+                margin: 50px 0 0;
             }
         }
 
         .col {
             grid-column: span 3;
             margin-top: 0;
-
+            
+            &:nth-of-type(2) {
+                margin-top: 20px;
+            }
             &:nth-of-type(4) {
                 margin-bottom: 50px;
             }
