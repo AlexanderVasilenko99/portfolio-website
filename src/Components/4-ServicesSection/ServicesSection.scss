@@ -2,11 +2,13 @@
 
 
 .ServicesSection {
-    @include i.secondary_color_background;
+    @include i.tertiary_color_background;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 170px 1fr;
     padding: 0px 100px;
+    gap: 60px;
     scroll-margin-top: 100px;
 
     .services-headers-container {
@@ -17,7 +19,7 @@
         h1 {
             @include i.primary_color_text;
             font-size: 1.35rem;
-            margin: 0;
+            margin: 100px 0 0;
             height: fit-content;
         }
 
@@ -32,6 +34,8 @@
         justify-content: center;
         align-items: flex-start;
 
+        margin-top: 100px;
+
         // p {
         //     font-size: .6rem;
         //     text-align: left;
@@ -44,20 +48,26 @@
     .ServicesSection {
         height: fit-content;
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
         padding: 0px 25vw;
         row-gap: 30px;
 
-        h1 {
-            display: flex;
-            justify-content: center;
+        .services-headers-container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                margin: 50px 0 0;
+            }
         }
 
         .col {
             grid-column: span 3;
+            margin-top: 0;
 
             &:nth-of-type(4) {
                 margin-bottom: 50px;
             }
         }
+
     }
 }
