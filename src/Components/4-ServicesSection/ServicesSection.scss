@@ -3,13 +3,13 @@
 
 .ServicesSection {
     @include i.tertiary_color_background;
-    height: 100vh;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 170px 1fr;
-    padding: 0px 100px;
+    padding: 0px 100px 50px;
     gap: 60px;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 65px;
 
     .services-headers-container {
         grid-column: span 3;
@@ -19,7 +19,7 @@
         h1 {
             @include i.primary_color_text;
             font-size: 1.35rem;
-            margin: 100px 0 0;
+            margin: 50px 0 0;
             height: fit-content;
         }
 
@@ -34,7 +34,6 @@
         justify-content: center;
         align-items: flex-start;
 
-        margin-top: 100px;
 
         // p {
         //     font-size: .6rem;
@@ -56,7 +55,7 @@
             h1 {
                 display: flex;
                 justify-content: center;
-                margin: 50px 0 0;
+                margin: 30px 0 0;
             }
         }
 
