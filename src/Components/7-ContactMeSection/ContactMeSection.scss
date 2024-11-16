@@ -7,6 +7,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    scroll-margin-top: 65px;
 
     .left-col {
         display: flex;
