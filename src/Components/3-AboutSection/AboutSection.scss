@@ -66,6 +66,7 @@
 
 @media only screen and (max-width: 796px) {
     .AboutSection {
+        scroll-margin-top: 65px;
         height: fit-content;
         padding: 0px 40px;
         grid-template-columns: 1fr;
